@@ -5,25 +5,25 @@
       "title": "Logistics Company",
       "imgFile": "OgisticSample",
       "imgFileFull": "OgisticFull",
-      "project": "Proyecto Logistics - Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, cumque labore officiis aliquid veniam consequuntur ullam soluta necessitatibus perspiciatis!",
+      "project": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, cumque labore officiis aliquid veniam consequuntur ullam soluta necessitatibus perspiciatis!",
       "technologies": ["HTML", "CSS", "JS", "SASS"],
-      "challenges": "Retos Logistics - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium, iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus! Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi assumenda, provident molestias sed debitis quasi id accusantium mollitia."
+      "challenges": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium, iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus! Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi assumenda, provident molestias sed debitis quasi id accusantium mollitia."
     },
     {
       "title": "LimeLight Furniture",
       "imgFile": "LimelightSample",
       "imgFileFull": "LimelightFull",
-      "project": "Proyecto LimeLight Furniture - Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, cumque labore officiis aliquid veniam consequuntur ullam soluta necessitatibus perspiciatis!",
+      "project": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, cumque labore officiis aliquid veniam consequuntur ullam soluta necessitatibus perspiciatis!",
       "technologies": ["JSON", "Figma", "C#", "JQuery"],
-      "challenges": "Retos LimeLight Furniture - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium, iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus! Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi assumenda, provident molestias sed debitis quasi id accusantium mollitia."
+      "challenges": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium, iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus! Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi assumenda, provident molestias sed debitis quasi id accusantium mollitia."
     },
     {
       "title": "Back to School",
       "imgFile": "FanadeshSample",
       "imgFileFull": "FanadeshFull",
-      "project": "Proyecto Back to School - Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, cumque labore officiis aliquid veniam consequuntur ullam soluta necessitatibus perspiciatis!",
+      "project": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, cumque labore officiis aliquid veniam consequuntur ullam soluta necessitatibus perspiciatis!",
       "technologies": ["JS", "IIFE", "CSS", "Bootstrap"],
-      "challenges": "Retos Back to School - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium, iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus! Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi assumenda, provident molestias sed debitis quasi id accusantium mollitia."
+      "challenges": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium, iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus! Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi assumenda, provident molestias sed debitis quasi id accusantium mollitia."
     }
   ]
 }

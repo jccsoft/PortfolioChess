@@ -53,7 +53,7 @@
     const email = form.querySelector('#email').value;
     const message = form.querySelector('#message').value;
     const lb = '%0D%0A';
-    const emailString = `mailto:${siteData.email}?subject=Web Contact from ${name}&body=Name: ${name}${lb}Email: ${email}${lb}Message: ${message}${lb}`;
+    const emailString = `mailto:${siteData.email}?subject=Contacto web de ${name}&body=Nombre: ${name}${lb}Email: ${email}${lb}Mensaje: ${message}${lb}`;
     window.open(emailString);
   }
 
@@ -83,7 +83,6 @@
       if (index % 2 !== 0) div1.classList.add('invert');
       const div2 = document.createElement('div');
       const h2 = document.createElement('h2');
-      // h2.innerText = workItem.title;
       const titleArray = workItem.title.split(' ');
       let title = '';
       titleArray.forEach((word) => {
@@ -129,7 +128,6 @@
 
     const fragment = new DocumentFragment();
     for (let index = 0; index < siteData.workItems[itemNumber - 1].technologies.length; index++) {
-      // const tech = data.workItems[itemNumber - 1].technologies[index];
       const li = document.createElement('li');
       li.innerText = siteData.workItems[itemNumber - 1].technologies[index];
       fragment.appendChild(li);

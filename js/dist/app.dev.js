@@ -98,7 +98,7 @@
     var email = form.querySelector('#email').value;
     var message = form.querySelector('#message').value;
     var lb = '%0D%0A';
-    var emailString = "mailto:".concat(siteData.email, "?subject=Web Contact from ").concat(name, "&body=Name: ").concat(name).concat(lb, "Email: ").concat(email).concat(lb, "Message: ").concat(message).concat(lb);
+    var emailString = "mailto:".concat(siteData.email, "?subject=Contacto web de ").concat(name, "&body=Nombre: ").concat(name).concat(lb, "Email: ").concat(email).concat(lb, "Mensaje: ").concat(message).concat(lb);
     window.open(emailString);
   }
 
@@ -110,7 +110,7 @@
       var li = document.createElement('li');
       var a = document.createElement('a');
       a.href = "workitem.html?item=".concat(index + 1);
-      a.innerText = workItem.menuTitle;
+      a.innerText = workItem.title;
       li.appendChild(a);
       fragment.appendChild(li);
     }
@@ -127,9 +127,8 @@
       div1.classList.add('highlight');
       if (index % 2 !== 0) div1.classList.add('invert');
       var div2 = document.createElement('div');
-      var h2 = document.createElement('h2'); // h2.innerText = workItem.menuTitle;
-
-      var titleArray = workItem.menuTitle.split(' ');
+      var h2 = document.createElement('h2');
+      var titleArray = workItem.title.split(' ');
       var title = '';
       titleArray.forEach(function (word) {
         if (title.length > 0) title += '<br />';
@@ -138,14 +137,14 @@
       h2.innerHTML = title;
       var a = document.createElement('a');
       a.href = "workitem.html?item=".concat(index + 1);
-      a.innerText = 'see more';
+      a.innerText = 'ver más';
       var picture = document.createElement('picture');
       var source = document.createElement('source');
       source.srcset = "img/".concat(workItem.imgFile, ".webp");
-      source.alt = "".concat(workItem.menuTitle);
+      source.alt = "".concat(workItem.title);
       var img = document.createElement('img');
       img.src = "img/old/".concat(workItem.imgFile, ".png");
-      img.alt = "".concat(workItem.menuTitle);
+      img.alt = "".concat(workItem.title);
       picture.appendChild(source);
       picture.appendChild(img);
       div2.appendChild(h2);
@@ -170,14 +169,13 @@
       return;
     }
 
-    document.querySelector('h2').innerText = siteData.workItems[itemNumber - 1].menuTitle;
+    document.querySelector('h2').innerText = siteData.workItems[itemNumber - 1].title;
     document.querySelector('source').srcset = "img/".concat(siteData.workItems[itemNumber - 1].imgFileFull, ".webp");
     document.querySelector('img').src = "img/".concat(siteData.workItems[itemNumber - 1].imgFileFull, ".jpg");
     document.querySelector('#project-text p').innerText = siteData.workItems[itemNumber - 1].project;
     var fragment = new DocumentFragment();
 
     for (var index = 0; index < siteData.workItems[itemNumber - 1].technologies.length; index++) {
-      // const tech = data.workItems[itemNumber - 1].technologies[index];
       var li = document.createElement('li');
       li.innerText = siteData.workItems[itemNumber - 1].technologies[index];
       fragment.appendChild(li);
