@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio Laura</title>
+    <meta name="description" content="Portfolio de Laura, incluyendo información de contacto y ejemplos" />
+    <meta property="og:title" content="Portfolio de Laura" />
+    <meta property="og:description" content="Portfolio de Laura, incluyendo información de contacto y ejemplos" />
+
+    <meta property="og:url" content="https://jcdc-demoportfolio1.azurewebsites.net" />
+    <link rel="canonical" href="https://jcdc-demoportfolio1.azurewebsites.net" />
+
+    <meta property="og:image" content="https://jcdc-demoportfolio1.azurewebsites.net/img/ally.webp" />
+    <meta property="og:image:alt" content="Una sonriente Laura" />
+
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <main>
+      <div id="hero" class="text-over-img">
+        <div>
+          <h1>Hola, soy<br />Laura</h1>
+        </div>
+        <picture>
+          <source srcset="img/Laura.webp" type="image/webp" />
+          <img src="img/old/Laura.png" alt="" aria-hidden="true" />
+        </picture>
+      </div>
+
+      <div id="contact-section">
+        <h2>Así me puedes contactar</h2>
+        <a href="">usa este formulario</a>
+        <form id="contact-form" action="" method="post">
+          <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div>
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+          <div>
+            <button type="submit">Contactar con Laura</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="portfolio-section" class="text-over-img">
+        <div>
+          <h2>Ésta es una muestra de mi trabajo</h2>
+          <a href="portfolio.html">ver más</a>
+        </div>
+        <picture>
+          <source srcset="img/PortfolioCollage.webp" />
+          <img src="img/old/PortfolioCollage.png" alt="Collage de mi portfolio" />
+        </picture>
+      </div>
+
+      <div id="my-story">
+        <h2>Ésta es mi historia</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti ad tempore autem nisi accusantium,
+          iste repellendus deserunt minima maxime assumenda cum numquam cumque, dolorem a soluta voluptatibus!
+          Laboriosam dolorum animi ipsum quaerat deleniti molestiae odit quae repellendus excepturi minus, nisi
+          assumenda, provident molestias sed debitis quasi id accusantium mollitia.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur vel illum rem veniam
+          reprehenderit ea asperiores adipisci labore consequatur accusamus unde soluta ratione debitis repudiandae
+          sequi officiis at! Nisi adipisci expedita voluptatum, repudiandae eum omnis natus debitis labore tenetur!
+        </p>
+      </div>
+    </main>
+    <footer>&copy; <span id="copyright-year"></span> by JC del Campo</footer>
+    <script src="js/app.js"></script>
+    <script>
+      app.homepageSetup();
+    </script>
+  </body>
+</html>
