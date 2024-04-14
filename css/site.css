@@ -14,13 +14,13 @@
 
 html {
   font-family: 'Quicksand', sans-serif;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: var(--font-weight-light);
   background-color: rgba(0, 0, 0, 0.034);
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
   background-color: white;
   color: var(--color);
@@ -41,6 +41,10 @@ h2 {
 p {
   line-height: 1.5rem;
 }
+.img-credit {
+  font-size: 0.4rem;
+  padding-top: 0.2rem;
+}
 /*#endregion */
 
 /*#region HEADER-FOOTER */
@@ -54,12 +58,12 @@ footer {
 }
 footer {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 4fr 1fr;
 }
 footer a {
   color: inherit;
-  font-size: smaller;
 }
+
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -110,6 +114,7 @@ picture {
   max-width: 500px;
   margin-top: var(--margin-y-section);
 }
+
 #contact-section form * {
   font-family: inherit;
   font-size: 100%;
@@ -130,6 +135,10 @@ picture {
   color: white;
   font-weight: var(--font-weight-strong);
   border: 0;
+}
+#contact-section form button:hover {
+  color: var(--color-link);
+  cursor: pointer;
 }
 /*#endregion */
 
@@ -183,17 +192,17 @@ picture {
 
 @media screen and (max-width: 1200px) {
   html {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 992px) {
   html {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 576px) {

@@ -39,6 +39,7 @@
   function toggleFormVisible(e) {
     e.preventDefault();
     const form = document.getElementById('contact-form');
+
     if (form.style.display == 'block') {
       form.style.display = 'none';
     } else {
